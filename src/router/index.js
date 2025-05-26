@@ -18,6 +18,11 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'), // 動態寫法
     },
     {
+      path: '/seeabout',
+      name: 'seeabout',
+      component: () => import('../views/SeeAboutView.vue'), // 動態寫法
+    },
+    {
       path: '/box',
       name: 'box',
       component: () => import('../views/BoxView.vue'), // 動態寫法
