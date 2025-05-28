@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted } from 'vue';
 import { useCounterStore } from '@/stores/counter.js';
+import SeeAbout from '@/components/SeeAbout.vue';
 const counterStore = useCounterStore();
 function add(num) {
   counterStore.increment(num);
@@ -23,6 +24,9 @@ onMounted(() => {
     <div>
       <p>試著操控陣列，{{ counterStore.list }}</p>
       <button @click="changeList(2)">陣列第 0 筆+2</button>
+    </div>
+    <div>
+      <SeeAbout />
     </div>
   </div>
 </template>

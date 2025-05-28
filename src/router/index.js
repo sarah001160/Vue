@@ -20,7 +20,7 @@ const router = createRouter({
     {
       path: '/seeabout',
       name: 'seeabout',
-      component: () => import('../views/SeeAboutView.vue'), // 動態寫法
+      component: () => import('../components/SeeAbout.vue'), // 動態寫法
     },
     {
       path: '/box',

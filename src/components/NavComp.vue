@@ -18,6 +18,10 @@ const navList = reactive([
   {
     title: '插槽練習',
     url: '/slot',
+  },
+  {
+    title: 'pinia共享',
+    url: '/about'
   }
 ])
 

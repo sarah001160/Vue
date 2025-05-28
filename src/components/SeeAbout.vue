@@ -9,10 +9,9 @@ function add(num) {
   counter.increment(num);
 }
 
-watch(() => counter.count, (newVal) => {
+watch(() => counter.list, (newVal) => {
   console.log('count 改變為', newVal);
 })
-
 
 
 </script>

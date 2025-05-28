@@ -11,7 +11,7 @@ export const useCounterStore = defineStore('counter', () => {
   }
 
   function handleList(num) {
-    list[0] += num;
+    list.push(num)
 
   }
 
